@@ -8,7 +8,8 @@ Given two points (x1, x2) and (y1, y2) we implement the below transform function
 
 Every pixel of the input image gets the new value according to the function. The Point Transform can be found in the pointtransform.m and the script that demonstrates the functionality of it is the scriptforPointtransform.m
 
-You can find the input image [here](https://github.com/tasos-m/DIP-Point-And-Histogram-Transform/blob/main/lena.bmp) 
+You can find the input image [here](https://github.com/tasos-m/DIP-Point-And-Histogram-Transform/blob/main/lena.bmp). 
+
 In this application, at first, we convert the image to grayscale and convert the pixels' values in a range [0,1]
 
 * For [x1,y1, x2, y2] = [0.1961, 0.0392, 0.8039, 0.9608]
