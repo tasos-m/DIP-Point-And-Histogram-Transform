@@ -4,9 +4,10 @@ This is the first assignment of the course Digital Image Processing (AUTh - 8th 
 ## Point Transform 
 Given two points (x1, x2) and (y1, y2) we implement the below transform function:
 
-![Webp net-resizeimage](https://user-images.githubusercontent.com/66207231/111847210-0833e480-8911-11eb-8ede-c88e31bc2764.png)
+![Webp net-resizeimage (1)](https://user-images.githubusercontent.com/66207231/111847892-7cbb5300-8912-11eb-8d32-481f5a7d7804.png)
 
 Every pixel of the input image gets the new value according to the function. The Point Transform can be found in the pointtransform.m and the script that demonstrates the functionality of it is the scriptforPointtransform.m
 
-The input image is [this](https://github.com/tasos-m/DIP-Point-And-Histogram-Transform/blob/main/lena.bmp) 
+You can find the input image [here](https://github.com/tasos-m/DIP-Point-And-Histogram-Transform/blob/main/lena.bmp) In this application, at first, we convert the image to grayscale and convert the pixels' values in a range [0,1]
+
 
