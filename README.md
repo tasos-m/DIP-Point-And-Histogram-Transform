@@ -8,6 +8,12 @@ Given two points (x1, x2) and (y1, y2) we implement the below transform function
 
 Every pixel of the input image gets the new value according to the function. The Point Transform can be found in the pointtransform.m and the script that demonstrates the functionality of it is the scriptforPointtransform.m
 
-You can find the input image [here](https://github.com/tasos-m/DIP-Point-And-Histogram-Transform/blob/main/lena.bmp) In this application, at first, we convert the image to grayscale and convert the pixels' values in a range [0,1]
+You can find the input image [here](https://github.com/tasos-m/DIP-Point-And-Histogram-Transform/blob/main/lena.bmp) 
+In this application, at first, we convert the image to grayscale and convert the pixels' values in a range [0,1]
 
+* For [x1,y1, x2, y2] = [0.1961, 0.0392, 0.8039, 0.9608]
+![Webp net-resizeimage (2)](https://user-images.githubusercontent.com/66207231/111848571-03bcfb00-8914-11eb-95b1-a7229a7732d5.png)
 
+* For [x1,y1,x2,y2]=[0.5 , 0 ,  0.5 , 1] (Clipping to 0.5)
+
+![2](https://user-images.githubusercontent.com/66207231/111848827-c3aa4800-8914-11eb-9359-a2aa3f6f9173.png)
