@@ -14,8 +14,7 @@ In this application, at first, we convert the image to grayscale and convert the
 
 * For [x1,y1, x2, y2] = [0.1961, 0.0392, 0.8039, 0.9608]
 
-![1](https://user-images.githubusercontent.com/66207231/111849295-e6892c00-8915-11eb-952b-a13892127c65.png)
-
+![1](https://user-images.githubusercontent.com/66207231/111849372-1df7d880-8916-11eb-8865-8087ceda382b.png)
 
 * For [x1,y1,x2,y2]=[0.5 , 0 ,  0.5 , 1] (Clipping to 0.5)
 
